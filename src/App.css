@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.App .Profile{
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  
+}
+.App .Profile img{
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
